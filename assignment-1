@@ -1,0 +1,32 @@
+Linux Kernel Assignment : 
+
+Problem #1     Block System call : 
+
+
+block system call for date command 
+that means you don't have to uninstall date command but if you run kernel must not accept 
+do the same Firefox as well
+
+Answer:
+firefox: Go to the location usr/bin and find the file firefox
+-> Then Remove all the contents of the file and save it.
+-> Now if we run the firefox command or click the firefox icon ,the firefox won't open
+
+Date:
+->Renamed the existing date file with other name
+-> Created a new text file with name date containing only path in it
+->then gave the permission to execute that file
+->If now someone will type command in terminal nothing will happen
+
+Problem #2 :  play with directory 
+
+  create a directory without name from command line:
+  
+  Answer-> To create a directory without name we can do it by mkdir " " ,the directory will be created in home
+  
+  
+  
+  create a directory with name "-okgoogle":
+  
+  Anser-> To create the directory with name "-okgoogle" , we can do it by command   mkdir -- -okgoogle
+  
